@@ -104,9 +104,10 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-scholar
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Chicago"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
