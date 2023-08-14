@@ -61,7 +61,7 @@ share-links-active:
   vk: false
 
 
-title: n0hats
+title: FE80::1
 email: n0hats@fe80.rocks
 domain: fe80.rocks
 description: >- # this means to ignore newlines until "baseurl:"
@@ -75,7 +75,7 @@ github_username:  n0hats
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  About Me: "aboutme"
+  whoami: "aboutme"
   Projects: "projects"
   Resources:
     - GitHub: "https://github.com/n0hats/"
