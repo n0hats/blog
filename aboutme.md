@@ -6,7 +6,8 @@ title: whoami
 
 ### Family Life
 
-I have an amazing wife, to whom I've been married to for 23 years.  I got married and had my first kid by the time I was 21.  By the grace of God, my family is still here and ready for anything.  In that 23 years there have been **8** moves, **1** Masters degree, **2** Bachelors degrees and **3** ***successfully*** homeschooled kiddos.
+I have an amazing wife, to whom I've been married to for 23 years.  I got married and had my first kid by the time I was 21.  By the grace of God, my family is still here and ready for anything.  
+In that 23 years there have been **8** moves, **1** Master’s degree (my wife, not me), **2** Bachelors degrees (both of us) and **3** ***successfully*** homeschooled kiddos (mainly her, but I did something, I'm sure of it).
 
 
 ### Work Life
