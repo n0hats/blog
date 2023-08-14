@@ -19,6 +19,24 @@
 # in the templates via {{ site.myvariable }}.
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
+social-network-links:
+  rss: false
+  email: "n0hats@fe80.rocks"
+  github: n0hats
+  twitter: n0hats
+#  reddit: yourname
+  linkedin: n0hats
+#  xing:
+#  stackoverflow: ""
+#  snapchat:
+#  instagram:
+#  youtube:
+#  spotify:
+#  telephone:
+#  steam:
+#  twitch:
+#  yelp:
+
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
