@@ -5,15 +5,16 @@ title: whoami
 
 
 ### Family Life
+<hr />
 
 I have an amazing wife, to whom I've been married to for 23 years.  I got married and had my first kid by the time I was 21.  By the grace of God, my family is still here and ready for anything.  
 In that 23 years there have been **8** moves, **1** Master’s degree (my wife, not me), **2** Bachelors degrees (both of us) and **3** ***successfully*** homeschooled kiddos (mainly her, but I did something, I'm sure of it).
 
 
 ### Work Life
-
+<hr />
 [My resume](../assets/resume/Joshua Smith - Resume.pdf)
-
+<hr />
 In the realm of **Information Security**, my name is **n0hats**, and I've spent over a decade honing my expertise in Cyber Forensics, Penetration Testing, Security Engineering, and Cyber Assessments. My journey reflects a steadfast commitment to fortifying digital landscapes.
 
 My story began more than ten years ago, a journey marked by constant growth. Proficient in both offensive and defensive Penetration Testing, I skillfully utilize tools such as Nmap, Metasploit Framework, Burp Suite Pro, and PowerShell Empire to uncover vulnerabilities.
