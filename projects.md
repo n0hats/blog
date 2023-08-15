@@ -4,7 +4,7 @@ title: Projects
 ---
 
 # Place to put all of my ideas
-#### **_Last Modified 2023/08/14_**
+#### **_Last Modified 2023/08/15_**
 
 * [LLM's](#llms)
   * Understand and train them
@@ -14,7 +14,6 @@ title: Projects
     * how can they hurt?
   * Can someone identify when an LLM has been used and when a human generated something?
 * [Log Standardization](#log-standardization)
-* [USG Voting](#usg-voting)
 * Learn C
   * I need to understand it and write more than hello world
     * maybe a blog post everytime I try to learn it??
@@ -28,13 +27,6 @@ title: Projects
 # LLM's
 
 I may make this a blog post but this technology is very interesting.  Imagine for a second if we could just tell our PC's what we want and they do it!  That would be **AMAZING**, but, just like TnT there will always be consequences.  There will **ALWAYS** be bad people that spoil this for everyone.  I started a Discord server called [LLM](https://discord.gg/dH9EN4QC) and welcome anyone and everyone to join.  It's just a shell of a server that I haven't put much thought into yet.  Maybe that's when I turn this into a blog post?  Things to think about....
-
-<hr />
-
-
-# USG Voting
-This one is a bit difficult for me to put out there because I don't want to be a target.  I'd like to use LLM's to find a way to track all of our politicians voting practices and put it into a nice pretty chart
-
 
 <hr />
 
