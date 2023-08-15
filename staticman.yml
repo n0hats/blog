@@ -12,7 +12,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "url", "message"]
+  allowedFields: ["name", "message"]
 
   # (*) REQUIRED WHEN USING NOTIFICATIONS
   #
@@ -25,7 +25,7 @@ comments:
   #
   # Name of the branch being used. Must match the `branch` in the theme config
   # file.
-  branch: "master"   #  use "master" for user page or "gh-pages" for project pages
+  branch: "main"   #  use "master" for user page or "gh-pages" for project pages
 
   commitMessage: "New comment by {fields.name}"
 
@@ -51,7 +51,7 @@ comments:
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: false
+  moderation: true
 
   # Akismet spam detection.
   # akismet:
@@ -63,7 +63,7 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "blog.fe80.rocks"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -89,7 +89,7 @@ comments:
 
   # Names of required files. If any of these isn't in the request or is empty,
   # an error will be thrown.
-  requiredFields: ["name", "email", "message"]
+  requiredFields: ["name", "message"]
 
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
