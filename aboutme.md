@@ -13,7 +13,7 @@ In that 23 years there have been **8** moves, **1** Master’s degree (my wife, 
 
 ### Work Life
 <hr />
-[My resume](../assets/resume/Joshua Smith - Resume.pdf)
+[My resume](../assets/resume/Joshua Smith - Resume.pdf){:target="_blank"}
 <hr />
 In the realm of **Information Security**, my name is **n0hats**, and I've spent over a decade honing my expertise in Cyber Forensics, Penetration Testing, Security Engineering, and Cyber Assessments. My journey reflects a steadfast commitment to fortifying digital landscapes.
 
