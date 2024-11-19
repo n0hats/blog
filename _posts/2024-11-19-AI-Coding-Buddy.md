@@ -68,8 +68,15 @@ With this AI coding buddy, I’ve become significantly more productive. Tasks li
 One of the most significant advantages of running a local model is **security**. Unlike cloud-based models, where queries and data are sent over the internet, my setup ensures everything stays within my environment. This added layer of security is essential for protecting sensitive code and maintaining compliance with industry regulations.  
 
 ## Screenshots  
+Send my code snippet to qwen:
 
-*[Placeholder for screenshots comparing performance, the integration process in PyCharm, and sample interactions.]*  
+![Screenshot 2024-11-19 120302](https://github.com/user-attachments/assets/c3fc0dc4-f259-431b-861b-61268382bf0c)
+
+Asking qwen for help:
+
+![continue](https://github.com/user-attachments/assets/322e8222-927b-41bf-a1a7-ee391112145c)
+
+
 
 ## Closing Thoughts  
 
