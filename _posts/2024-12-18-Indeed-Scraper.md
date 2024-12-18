@@ -1,4 +1,4 @@
-# Building the Indeed Scraper: Simplifying the Job Search  
+# Simplifying the Job Search  
 
 Sifting through countless job postings is a challenge, especially when you’re trying to find roles that match your skills and experience. That’s what inspired me to create the **Indeed Scraper** – a Python-based tool designed to automate job searches and save time.  
 
@@ -10,47 +10,43 @@ Manually searching for jobs often involves wading through listings that aren’t
 
 The **Indeed Scraper** is that solution. It’s a lightweight tool that simplifies job hunting by automatically gathering job data from Indeed and presenting it in a structured format.  
 
-## How the Tool Works  
+## How It Works  
 
-The scraper interacts with Indeed’s job search pages, sending requests, parsing the HTML content, and extracting useful details like:  
+The tool is split into two main components:  
+
+### `scraper.py`  
+
+This script interacts directly with Indeed’s job search pages. It sends requests, parses the HTML content, and extracts useful information such as:  
 - Job Title  
 - Company Name  
 - Location  
 - Job Description  
 
-Once the data is gathered, it’s output as a **JSON file**, ready for analysis.  
+All of this data is stored in JSON format for further analysis.  
+
+### `app.py`  
+
+While `scraper.py` focuses on gathering data, `app.py` brings everything together. It provides an easy-to-use interface for setting up your searches, managing parameters, and executing the scraping process. Whether you’re searching for specific keywords, targeting a particular location, or running multiple searches back-to-back, `app.py` acts as the central hub.  
+
+## Handling Inconsistent Results  
+
+One challenge I encountered was the variability in results. Running the same query multiple times would yield vastly different results – sometimes 900 postings, other times only 200. This inconsistency could stem from changes in job availability or fluctuations in Indeed’s data delivery.  
+
+To address this, I created an additional script that combines results from multiple runs and removes duplicates. This way, you can perform several scrapes and merge the data into a single, clean dataset. This script ensures you capture as much information as possible without redundancy.  
 
 ## Features of the Indeed Scraper  
 
-1. **Automated Searches**: Customize the search by inputting keywords, locations, and filters.  
-2. **Handles Pagination**: Automatically navigates through multiple result pages to ensure comprehensive data collection.  
-3. **Clean Output**: Data is stored in a JSON format, making it easy to analyze or integrate into other tools.  
-
-## Challenges and Lessons Learned  
-
-Building this tool wasn’t without its hurdles. Parsing dynamic web pages and handling rate limits required careful planning. I implemented features like:  
-- **Request Headers**: To simulate a browser and avoid being flagged as a bot.  
-- **Rate Limiting**: To respect Indeed’s servers and avoid excessive traffic.  
-
-Here’s an example of rate limiting in action:  
-
-```python  
-import time  
-
-for page in range(1, 5):  
-    scrape_indeed_jobs("cybersecurity", "remote")  
-    time.sleep(2)  # Wait 2 seconds between requests  
-```  
+1. **Automated Searches**: Input your search parameters and let the tool handle the rest.  
+2. **Handles Pagination**: Ensures all result pages are scraped for comprehensive data collection.  
+3. **Data Merging**: Combines results from multiple runs and removes duplicates, giving you a consistent dataset to work with.  
 
 ## What’s Next?  
 
-The Indeed Scraper has already saved me hours of job searching, and I hope it can help others as well. Future plans include:  
-- Integrating with visualization tools to analyze trends.  
-- Supporting other job boards like LinkedIn or Glassdoor.  
+The Indeed Scraper has already saved me countless hours of job searching, and I hope it can do the same for others. Future plans include supporting other job boards like LinkedIn or Glassdoor.  
 
 ## Conclusion  
 
-The **Indeed Scraper** is my way of turning a frustrating manual process into an automated solution. It’s a lightweight, efficient tool designed to simplify job hunting and empower users with data.  
+The **Indeed Scraper** is my way of turning a frustrating manual process into an automated solution. With its ability to handle searches, inconsistencies, and data merging, it’s a powerful tool for anyone looking to simplify their job hunt.  
 
 If you’re curious about the tool or want to try it yourself, check out the project on GitHub: [https://github.com/n0hats/indeed_scraper](https://github.com/n0hats/indeed_scraper).  
 
